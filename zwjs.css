@@ -1,0 +1,127 @@
+/* 页面通用 */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background:#deaf5d;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h1,h2,h3,h4 {
+	font-weight: initial;
+}
+
+.header {
+	clear: both;
+}
+
+.space_40 {
+	clear: both;
+	height: 40px;
+	background:#fcecd0;
+}
+
+/* 首页 */
+#content {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#content #nav {
+	padding-left: 200px;
+	height: 50px;
+	background-color: #ea6837;
+}
+
+#content #nav ul {
+	list-style: none;
+}
+
+#content #nav ul li {
+	float: left;
+	width: 300px;
+	line-height: 50px;
+	position: relative;
+	z-index: 10000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.banner {
+	width: 1000px;
+	height: 562px;
+	margin: 0 auto;
+}
+
+.jieshao {
+	width: 1000px;
+	margin: auto;
+	height: 800px;
+}
+
+.grjianjie {
+	clear: both;
+	width: 1000px;
+	height: 245px;
+	background: #fcecd0;
+	padding-top: 40px;
+}
+
+.neirong {
+	background: #fcecd0;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.sxbt h2 {
+	text-align: center;
+	line-height: 48px;
+	padding: 15px 5px;
+}
+
+.hjj {
+	padding-left: 50px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 50px;
+	border-bottom: #ccc dotted 2px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.video {
+	width: 1000px;
+	margin: 0 auto;
+	height: 400px;
+	clear: both;
+	background: #000;
+}
+
+
+/* 版权信息 */
+footer {
+	background: #f58033;
+	color: #FFFFFF;
+	text-align: center;
+	height: 40px;
+}
+
+footer p {
+	line-height: 40px;
+}
